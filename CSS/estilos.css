@@ -1,9 +1,13 @@
 body{
     margin: 0px;
     padding: 0px;
+    height: 100%;
+    width: 100%;
+    background: #26a1daa9; 
+    background: -webkit-linear-gradient(to top, #26a1daa9, #005783be);  
+    background: linear-gradient(to top, #26a1daa9, #005783be);
 }
 li a:link, ul a:link{
-    
     text-decoration: none;
 }
 li, ul{
@@ -11,11 +15,15 @@ li, ul{
 }
 header{
     display: inline-flex;
+    background-color: #E6E7E9;
     margin: 0px;
-    padding: 15px;
-    border: 1px solid darkblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-bottom: 3px solid #005883;
     align-items: center;
-    width: 100%;
+    width: 96%;
     height: 75px;
 }
 header img{
@@ -27,23 +35,53 @@ header ul{
     justify-content: right;
     margin: 0px;
     padding: 0px;
-    right: 70px;
+    right: 50px;
 }
 header ul li{
     display: inline-flex;
-    margin: 0px 20px;
-   
+    margin: 0px 10px;
+}
+header i{
+    font-size: 15px;
+    padding-right: 5px;
 }
 header ul li a{
-    border: 1px solid red;
+    border: 0px solid ;
+    border-radius: 5px;
+    background-color: #005883;
     margin: 0px;
-    width: 100px;
-    height: 45px;
-    color: forestgreen;
+    padding: 0px 20px 0px 20px;
+    height: 31px;
+    line-height: 31px;
+    color: rgb(255, 255, 255);
     text-align: center;
     align-items: center;
-    font-family: 'Franklin Gothic Book';
-    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.slider{
+    display: inline-flex;
+    margin: 1.5% 6%;
+    padding: 3% 6%;
+    height: auto;
+    width: 75%;
+    background: #E0EAFC;
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    align-items: center;
+}
+.slider i{
+    font-size: 66px;
+    padding-right: 35px;
+    color: rgb(1, 104, 48);
+}
+.slider article{
+    display: inline;
+    padding: 0px;
+    margin: 0px;
 }
 nav ul li{
     color: burlywood;
