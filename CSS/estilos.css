@@ -3,9 +3,9 @@ body{
     padding: 0px;
     height: 100%;
     width: 100%;
-    background: #26a1daa9; 
-    background: -webkit-linear-gradient(to top, #26a1daa9, #005783be);  
-    background: linear-gradient(to top, #26a1daa9, #005783be);
+    background: rgba(145, 179, 238, 0.555);
+    background: -webkit-linear-gradient(to top, rgba(145, 179, 238, 0.555), rgba(116, 158, 236, 0.822));
+    background: linear-gradient(to top, rgba(145, 179, 238, 0.555), rgba(116, 158, 236, 0.822));
 }
 li a:link, ul a:link{
     text-decoration: none;
@@ -14,14 +14,15 @@ li, ul{
     list-style: none;
 }
 header{
+    position: fixed;
     display: inline-flex;
-    background-color: #E6E7E9;
+    background-color: #005883;
     margin: 0px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 2%;
     padding-right: 2%;
-    border-bottom: 3px solid #005883;
+    border-bottom: 3px solid #004c72;
     align-items: center;
     width: 96%;
     height: 75px;
@@ -40,15 +41,15 @@ header ul{
 header ul li{
     display: inline-flex;
     margin: 0px 10px;
+    
 }
 header i{
     font-size: 15px;
     padding-right: 5px;
 }
 header ul li a{
-    border: 0px solid ;
     border-radius: 5px;
-    background-color: #005883;
+    background-color: #F0B429;
     margin: 0px;
     padding: 0px 20px 0px 20px;
     height: 31px;
@@ -58,20 +59,23 @@ header ul li a{
     align-items: center;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.24);
 }
 .slider{
     display: inline-flex;
-    margin: 1.5% 6%;
+    margin: 0% 6%;
+    margin-top: 125px;
     padding: 3% 6%;
     height: auto;
     width: 75%;
     background: #E0EAFC;
-    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
-    background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+    background: -webkit-linear-gradient(to right, rgb(230, 235, 243), rgba(236, 241, 252));
+    background: linear-gradient(to right, rgb(230, 235, 243), rgba(236, 241, 252));
     font-family: 'Roboto', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     text-align: justify;
     align-items: center;
+    border: 3px solid #005783c4;
 }
 .slider i{
     font-size: 66px;
