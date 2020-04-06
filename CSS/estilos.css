@@ -6,6 +6,7 @@ body{
     background: rgba(145, 179, 238, 0.555);
     background: -webkit-linear-gradient(to top, rgba(145, 179, 238, 0.555), rgba(116, 158, 236, 0.822));
     background: linear-gradient(to top, rgba(145, 179, 238, 0.555), rgba(116, 158, 236, 0.822));
+    background-repeat: no-repeat;
 }
 li a:link, ul a:link{
     text-decoration: none;
@@ -13,6 +14,11 @@ li a:link, ul a:link{
 li, ul{
     list-style: none;
 }
+i{
+    font-size: 15px;
+    padding-right: 5px;
+}
+/* Inicio del Header */
 header{
     position: fixed;
     display: inline-flex;
@@ -41,19 +47,14 @@ header ul{
 header ul li{
     display: inline-flex;
     margin: 0px 10px;
-    
-}
-header i{
-    font-size: 15px;
-    padding-right: 5px;
 }
 header ul li a{
     border-radius: 5px;
     background-color: #F0B429;
     margin: 0px;
-    padding: 0px 20px 0px 20px;
-    height: 31px;
-    line-height: 31px;
+    padding: 0px 15px 0px 15px;
+    height: 30px;
+    line-height: 30px;
     color: rgb(255, 255, 255);
     text-align: center;
     align-items: center;
@@ -61,32 +62,103 @@ header ul li a{
     font-size: 15px;
     text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.24);
 }
+/* Fin del Header */
+/* Inicio del Slider */
+
 .slider{
     display: inline-flex;
     margin: 0% 6%;
     margin-top: 125px;
-    padding: 3% 6%;
+    padding-left: 6%;
     height: auto;
-    width: 75%;
+    width: 88%;
     background: #E0EAFC;
     background: -webkit-linear-gradient(to right, rgb(230, 235, 243), rgba(236, 241, 252));
     background: linear-gradient(to right, rgb(230, 235, 243), rgba(236, 241, 252));
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
     align-items: center;
     border: 3px solid #005783c4;
+    box-sizing: border-box;
 }
 .slider i{
     font-size: 66px;
     padding-right: 35px;
     color: rgb(1, 104, 48);
 }
-.slider article{
+.slider articule{
     display: inline;
-    padding: 0px;
-    margin: 0px;
+    padding: 3% 6%;
+    padding-left: 0px;
 }
-nav ul li{
-    color: burlywood;
+/* Fin del Slider */
+/* Inicio del menú */
+.menu{
+    margin: 0% 6%;
+    height: auto;
+    width: 88%;
+    padding: 0px;
+    border: 2px solid rgb(228, 169, 33);
+    background-color: #F0B429;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.menu li{
+    display: inline-block;
+}
+.boton a{
+    border-radius: 7px;
+    transition: background 0.7s;
+}
+li a, .boton a{
+    display: inline-block;
+    padding: 12px 45px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.356);
+}
+.desplegable1, .desplegable2, .desplegable3{
+    display: none;
+    background-color: #F0B429;
+    position: absolute;
+    border-radius: 7px;
+}
+.desplegable1 a:hover, .desplegable2 a:hover, .desplegable3 a:hover{
+    background-color: #f47920;
+    border-radius: 7px;
+}
+.desplegable1{
+    min-width: 169.6px;
+}
+.desplegable2{
+    min-width: 188.65px;
+}
+.desplegable3{
+    min-width: 189.72px;
+}
+.boton a:hover{
+    background: #f47920;
+    border-radius: 7px;
+    transform: scale(1.05);
+}
+.boton a:active, .desplegable1 a:active, .desplegable2 a:active, .desplegable3 a:active{
+    background: #381a04;
+    transform: scale(1.01);
+}
+.boton:hover .desplegable1, .boton:hover .desplegable2, .boton:hover .desplegable3{
+    display: block; 
+}
+.desplegable1 a, .desplegable2 a, .desplegable3 a{
+    display: block;
+    text-align: center;
+    transition: all 0.35s;
+}
+/* Fin del menú */
+.contenedorprincipal{
+    width: 86%;
+    height: 550px;
+    background: #E0EAFC;
+    margin: auto;
+    margin-bottom: 20px;
 }
