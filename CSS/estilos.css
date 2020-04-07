@@ -246,7 +246,7 @@ fieldset input:focus + button .fa-search{
     min-height: 400px;
     background-color: rgba(255, 255, 255, 0.726);
     display: inline-flex;
-    border: 2px solid #acaba7c4;
+    border: 1px solid #acaba773;
     box-sizing: border-box;
     text-align: justify;
 }
@@ -263,7 +263,7 @@ aside{
     background-color: rgba(255, 255, 255, 0.726);
     display: inline-flex;
     right: 0px;
-    border: 2px solid #acaba7c4;
+    border: 1px solid #acaba773;
     box-sizing: border-box;
 }
 /* Fin del Aside */
