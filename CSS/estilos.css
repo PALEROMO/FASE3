@@ -228,12 +228,13 @@ fieldset input:focus + button .fa-search{
 /* Fin del menú */
 /* Inicio del contenendor principal */
 .contenedorprincipal{
-    width: 82%;
+    width: 84%;
     height: auto;
-    background: #E0EAFC;
+    background: rgba(224, 234, 252, 0.6);
     margin: auto;
     margin-bottom: 20px;
-    padding: 3%;
+    padding: 2%;
+    padding-top: 1.8%;
     box-sizing: padding;
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -249,6 +250,7 @@ fieldset input:focus + button .fa-search{
     border: 1px solid #acaba773;
     box-sizing: border-box;
     text-align: justify;
+    border-radius: 7px;
 }
 /* Fin del área para publicación de información */
 /* Inicio del Aside */
@@ -261,11 +263,38 @@ aside{
     width: 33%;
     min-height: 400px;
     background-color: rgba(255, 255, 255, 0.726);
-    display: inline-flex;
     right: 0px;
     border: 1px solid #acaba773;
     box-sizing: border-box;
+    border-radius: 7px;
 }
+.redessociales{
+    background-color: #292F33;
+    border-radius: 7px;
+    padding: 6%;
+    width: 88%;
+    height: auto;
+    display: block;
+    margin-bottom: 25px;
+}
+.redessociales, .redessociales a i{
+    color: white;
+}
+.redessociales section{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.redessociales a i{
+    font-size: 35px;
+    padding: 8px;
+}
+.logosredes{
+    display: flex;
+    width: 186.5px;
+    margin: auto;
+
+}
+
 /* Fin del Aside */
 /* Inicio del Footer */
 footer{
