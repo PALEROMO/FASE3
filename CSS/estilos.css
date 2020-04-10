@@ -136,6 +136,9 @@ li a, .boton a{
     border-radius: 7px;
     z-index: 4;
 }
+.desplegable1 a, .desplegable2 a, .desplegable3 a{
+    padding: 7px 26.1875px;
+}
 .desplegable1 a:hover, .desplegable2 a:hover, .desplegable3 a:hover{
     background-color: #f47920;
     border-radius: 7px;
@@ -268,7 +271,7 @@ aside{
     box-sizing: border-box;
     border-radius: 7px;
 }
-.redessociales{
+.widgetsaside{
     background-color: #292F33;
     border-radius: 7px;
     padding: 6%;
@@ -277,14 +280,14 @@ aside{
     display: block;
     margin-bottom: 25px;
 }
-.redessociales, .redessociales a i{
+.widgetsaside, .widgetsaside a i{
     color: white;
 }
-.redessociales section{
+.widgetsaside section{
     text-align: center;
     margin-bottom: 15px;
 }
-.redessociales a i{
+.widgetsaside a i{
     font-size: 35px;
     padding: 8px;
 }
@@ -292,7 +295,11 @@ aside{
     display: flex;
     width: 186.5px;
     margin: auto;
-
+}
+.contador a{
+    display: flex;
+    width: 115px;
+    margin: auto;
 }
 
 /* Fin del Aside */
