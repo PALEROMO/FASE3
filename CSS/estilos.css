@@ -249,11 +249,20 @@ fieldset input:focus + button .fa-search{
     width: 70%;
     min-height: 400px;
     background-color: rgba(255, 255, 255, 0.726);
-    display: inline-flex;
+    font-size: 18px;
     border: 1px solid #acaba773;
     box-sizing: border-box;
     text-align: justify;
     border-radius: 7px;
+}
+.contenedorinformacion ul li{
+    list-style-type: circle;
+}
+.contenedorinformacion h1{
+    text-align: center;
+}
+.contenedorinformacion iframe{
+    width: 100%;
 }
 /* Fin del área para publicación de información */
 /* Inicio del Aside */
@@ -303,6 +312,40 @@ aside{
 }
 
 /* Fin del Aside */
+/* Inicio de los datos de los autores */
+.tituloautor{
+    width: 98%;
+    height: auto;
+    padding: 1%;
+    margin-bottom: 5%;
+    border-radius: 7px;
+    background-color: lightblue;
+}
+.informacion{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.autor{
+    text-align: left;
+    background-color: lightblue;
+    width: 90%;
+    padding: 5%;
+    margin-bottom: 5%;
+    border-radius: 7px;
+    display: inline-flex;
+}
+.autor:hover{
+    transform: scale(1.05);
+    background-color: rgb(145, 199, 218);
+    transition: all 0.25s;
+}
+.autor img{
+    width: 125px;
+    height: 130px;
+    border-radius: 9px;
+    margin-right: 15px;
+}
+/* Fin de los datos de los autores */
 /* Inicio del Footer */
 footer{
     font-size: 14px;
