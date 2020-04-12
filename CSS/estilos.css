@@ -230,6 +230,14 @@ fieldset input:focus + button .fa-search{
 }
 /* Fin del menú */
 /* Inicio del contenendor principal */
+audio{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 25px;
+    border: 2px solid rgb(56, 59, 70);
+}
+
 .contenedorprincipal{
     width: 84%;
     height: auto;
